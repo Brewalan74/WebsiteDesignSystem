@@ -7,16 +7,93 @@ h1 {
 }
 
 /* Colors section */
-.colors {
+.containerStyles {
     border: 1px solid black;
     text-align: center;
     margin: 1rem;
     padding: 1rem;
-
 }
 
-.colorBlock {
+.smallBlock {
     display: inline-block;
-    width: 20em;
-    border: 0 solid;
+    width: 17em;
+    margin: 4px 2px;
+}
+
+.aqua {
+    border: 1px solid aqua;
+    background-color: aqua;
+}
+
+.blueviolet {
+    border: 1px solid blueviolet;
+    background-color: blueviolet;
+}
+
+.chartreuse {
+    border: 1px solid chartreuse;
+    background-color: chartreuse;
+}
+
+.crimson {
+    border: 1px solid crimson;
+    background-color: crimson;
+}
+
+.darkgoldenrod {
+    border: 1px solid darkgoldenrod;
+    background-color: darkgoldenrod;
+}
+
+.coral {
+    border: 1px solid coral;
+    background-color: coral;
+}
+
+
+/* Fonts section */
+.font1 {
+    font-family: Roboto;
+}
+
+.font2 {
+    font-family: Oswald;
+}
+
+.font3 {
+    font-family: Merriweather;
+}
+
+.font4 {
+    font-family: Dosis;
+}
+
+.font5 {
+    font-family: Blaka;
+}
+
+.font6 {
+    font-family: Arvos;
+}
+
+/* Text Styles */
+.h1Text {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+.h2Text {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+}
+
+.paraText {
+    font-weight: 400;
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
 }
