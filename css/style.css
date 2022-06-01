@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Colors section */
+.colors {
+    border: 1px solid black;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+
+}
+
+.colorBlock {
+    display: inline-block;
+    width: 20em;
+    border: 0 solid;
+}
